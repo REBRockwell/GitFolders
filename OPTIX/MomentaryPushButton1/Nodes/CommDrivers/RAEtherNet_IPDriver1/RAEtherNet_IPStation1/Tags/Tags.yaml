@@ -1,0 +1,36 @@
+Name: Tags
+Type: BaseObjectType
+Children:
+- Name: 'Program:MainProgram'
+  Type: TagStructure
+  Children:
+  - Name: start
+    Id: g=0e445fe995ab2933e05bc00e5afc073a
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.start"
+  - Name: stop
+    Id: g=da1978105c8d9b73eaec5dbcbeafa222
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.stop"
+  - Name: run
+    Id: g=b76ee0bece0ea36abe43f2b83fcf6552
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.run"
